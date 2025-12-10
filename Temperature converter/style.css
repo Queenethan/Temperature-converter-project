@@ -1,0 +1,38 @@
+body {
+  background-color: #f2f6ff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.converter {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px lightgray;
+}
+
+input, select, button {
+  padding: 10px;
+  margin: 10px 0px;
+  width: 80%;
+  font-size: 16px;
+}
+
+button {
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #334fd4;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+}
